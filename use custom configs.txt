@@ -1,2 +1,4 @@
+Use only for defconfig! Not menuconfig.
+---------------------------------------
 make defconfig BR2_EXTERNAL=/path/to/custom-configs BR2_DEFCONFIG=rpi3_custom_defconfig
 
