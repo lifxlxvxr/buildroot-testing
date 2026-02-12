@@ -1,0 +1,11 @@
+CLONE TO buildroot/custom-configs !!!
+
+FOR RPI3
+1. BEFORE build:
+1.1 copy custom-configs/board/raspberrypi/post-build.sh to buildroot/board/raspberrypi
+1.2 Set +x to scripts in fs overlay!
+
+2. AFTER build:
+2.1 copy custom-configs/configs/rpi-firmware/config.txt to buildroot/output/images/rpi-firmware
+
+3. make (for rebuild sdcard.img)
