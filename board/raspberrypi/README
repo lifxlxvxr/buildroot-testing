@@ -1,0 +1,2 @@
+1. overlay - auto copy with build
+2. post-build - copy to buildroot/board/raspberrypi BEFORE build
